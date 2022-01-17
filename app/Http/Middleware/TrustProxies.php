@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class TrustProxies extends Middleware
 {
     /**
-     * The trusted proxies for this application.
+     * The trusted proxies for this exam.
      *
      * @var array<int, string>|string|null
      */
