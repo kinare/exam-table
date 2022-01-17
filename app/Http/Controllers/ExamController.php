@@ -19,8 +19,6 @@ class ExamController extends Controller
         return response()->json($exams);
     }
 
-
-
     public function store(Request $request)
     {
         $exam = new Exam();
@@ -29,7 +27,6 @@ class ExamController extends Controller
 
         return response()->json($exam);
     }
-
 
     public function show($exam_id)
     {
