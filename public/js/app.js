@@ -2145,7 +2145,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "examList",
   data: function data() {
@@ -3552,7 +3551,7 @@ var render = function () {
         [
           _c(
             "v-col",
-            { attrs: { cols: "12", "offset-md": "4", md: "4" } },
+            { attrs: { cols: "12", "offset-md": "3", md: "6" } },
             [
               _c(
                 "v-card",
@@ -3756,10 +3755,7 @@ var render = function () {
                   _vm._v(" "),
                   _c(
                     "v-btn",
-                    {
-                      attrs: { color: "primary", text: "" },
-                      on: { click: _vm.addExam },
-                    },
+                    { attrs: { color: "primary" }, on: { click: _vm.addExam } },
                     [_vm._v("\n                    Add Exam\n                ")]
                   ),
                 ],
@@ -4265,11 +4261,15 @@ var render = function () {
       _c(
         "v-app-bar",
         { attrs: { color: "white", app: "" } },
-        [_c("v-toolbar-title", [_vm._v("Exam")]), _vm._v(" "), _c("v-spacer")],
+        [
+          _c("v-toolbar-title", [_vm._v("Technical Task")]),
+          _vm._v(" "),
+          _c("v-spacer"),
+        ],
         1
       ),
       _vm._v(" "),
-      _c("v-main", [_c("router-view")], 1),
+      _c("v-main", { staticClass: "mt-10" }, [_c("router-view")], 1),
     ],
     1
   )

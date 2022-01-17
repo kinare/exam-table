@@ -1,13 +1,13 @@
 <template>
   <v-app>
     <v-app-bar color="white" app>
-        <v-toolbar-title>Exam</v-toolbar-title>
+        <v-toolbar-title>Technical Task</v-toolbar-title>
 
       <v-spacer />
 
     </v-app-bar>
 
-    <v-main>
+    <v-main class="mt-10">
       <!-- Content-->
       <router-view />
     </v-main>

@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <v-row>
-            <v-col cols="12" offset-md="4" md="4">
+            <v-col cols="12" offset-md="3" md="6">
                 <v-card>
                     <v-card-title>
                         Exam List
@@ -66,7 +66,6 @@
 
                     <v-btn
                         color="primary"
-                        text
                         @click="addExam"
                     >
                         Add Exam
